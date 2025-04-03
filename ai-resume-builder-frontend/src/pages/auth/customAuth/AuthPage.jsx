@@ -77,6 +77,7 @@ function AuthPage() {
     };
     try {
       const response = await registerUser(data);
+      console.log(response);
       if (response?.statusCode === 201) {
         console.log("User Registration Started");
         handleSignInSubmit(event);

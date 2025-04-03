@@ -19,7 +19,7 @@ const registerUser = async (req, res) => {
   if (!fullName || !email || !password) {
     console.log("Registration Failed data insufficeient ");
     return res
-      .status(400)
+      .status(400)  
       .json(
         new ApiError(
           400,

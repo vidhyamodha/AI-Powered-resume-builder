@@ -132,10 +132,10 @@ function HomePage() {
             &copy; 2024 Ai-Resume-Builder. All rights reserved.
           </p>
           <div>
-            <Button variant="secondary" onClick={handleClick}>
+            {/* <Button variant="secondary" onClick={handleClick}>
               <FaGithub className="w-4 h-4 mr-1" />
               GitHub
-            </Button>
+            </Button> */}
           </div>
         </div>
       </footer>
